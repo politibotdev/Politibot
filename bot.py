@@ -2,6 +2,8 @@ import discord
 import os
 from dotenv import load_dotenv
 from discord.ext import commands
+from google import genai
+from google.colab import userdata
 load_dotenv()
 
 print("Lancement de Politibot...")
